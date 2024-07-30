@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 import seaborn as sns
 
+st.set_page_config(page_title="Chat Analyzer")
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a WhatsApp chat file in 24-hour format")
